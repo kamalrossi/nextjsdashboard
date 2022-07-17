@@ -75,7 +75,7 @@ export default function Admin({ children, ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Creative Tim"}
+        logoText={"MediaEye"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
