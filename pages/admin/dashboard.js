@@ -199,11 +199,11 @@ function Dashboard() {
       <GridContainer>
         <GridItem xs={12} sm={12} md={6}>
           <CustomTabs
-            title="Tasks:"
+            title="SL:"
             headerColor="dark"
             tabs={[
               {
-                tabName: "Bugs",
+                tabName: "Article",
                 tabIcon: BugReport,
                 tabContent: (
                   <Tasks
@@ -214,7 +214,7 @@ function Dashboard() {
                 ),
               },
               {
-                tabName: "Website",
+                tabName: "View",
                 tabIcon: Code,
                 tabContent: (
                   <Tasks
@@ -225,7 +225,7 @@ function Dashboard() {
                 ),
               },
               {
-                tabName: "Server",
+                tabName: "Comment",
                 tabIcon: Cloud,
                 tabContent: (
                   <Tasks
